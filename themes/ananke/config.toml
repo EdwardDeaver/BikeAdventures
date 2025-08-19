@@ -1,0 +1,18 @@
+[params]
+  text_color = ""
+  author = "Edward Deaver"
+  favicon = ""
+  site_logo = ""
+  description = "The last theme you'll ever need. Maybe."
+  # choose a background color from any on this page: https://tachyons.io/docs/themes/skins/ and preface it with "bg-"
+  background_color_class = "bg-black"
+  recent_posts_number = 3
+
+[[params.ananke_socials]]
+name = "strava"
+url = "https://www.strava.com/athletes/25210566"
+
+[[params.ananke_socials]]
+name = "ridewithgps"
+url = "https://ridewithgps.com/users/8948817/"
+
