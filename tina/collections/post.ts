@@ -12,6 +12,13 @@ const Post: Collection = {
       isTitle: true,
       required: true,
     },
+        {
+      type: "rich-text",
+      name: "description",
+      label: "Description",
+      isBody: false,
+      
+    },
     {
       type: "datetime",
       label: "Date",
@@ -27,8 +34,22 @@ const Post: Collection = {
       name: "body",
       label: "Body",
       isBody: true,
+      
     },
+    {
+      type: 'string',
+      name: 'tags',
+      label: 'Tags',
+      description: 'Tags for this post',
+      list: true,
+      ui: {
+        component: 'tags',
+      },
+    }
   ],
 };
 
 export default Post;
+
+
+    

@@ -1,7 +1,12 @@
 ---
 title: 'Hello, World!'
+description: |
+  orem ipsum dolor sit amet, consectetur adipiscing elit.
 date: 2022-10-10T03:00:00.000Z
 draft: false
+tags:
+  - hello
+  - goodbye
 ---
 
 ## Hello World!
