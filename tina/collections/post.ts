@@ -12,6 +12,12 @@ const Post: Collection = {
       isTitle: true,
       required: true,
     },
+    {
+  name: "featured_image",
+  label: "featured_image",
+  type: "image",
+  required: true,
+},
         {
       type: "rich-text",
       name: "description",
