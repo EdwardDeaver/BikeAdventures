@@ -64,13 +64,15 @@ At this point you might be thinking – wow it sounds basically like a mountain 
 Build idea 1:
 
 This wasn't that fleshed out. I found a deal from Lynksey on a gr350, and went with it.
-Cost:
+
+<div style="min-height:400px" id="datawrapper-vis-1UfdD"><script type="text/javascript" defer src="https://datawrapper.dwcdn.net/1UfdD/embed.js" charset="utf-8" data-target="#datawrapper-vis-1UfdD"></script><noscript><img src="https://datawrapper.dwcdn.net/1UfdD/full.png" alt="[ Insert title here ] (Table)" /></noscript></div>
 
 
 Build idea 2:
 
 Getting more realistic.
 
+<iframe title="Bike Build Brake Down 2" aria-label="Table" id="datawrapper-chart-8sIkc" src="https://datawrapper.dwcdn.net/8sIkc/1/" scrolling="no" frameborder="0" style="border: none;" width="400" height="1168" data-external="1"></iframe>
 
 Build idea 3:
 
