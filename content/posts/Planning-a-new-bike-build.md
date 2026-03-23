@@ -65,14 +65,13 @@ Build idea 1:
 
 This wasn't that fleshed out. I found a deal from Lynksey on a gr350, and went with it.
 
-<div style="min-height:400px" id="datawrapper-vis-1UfdD"><script type="text/javascript" defer src="https://datawrapper.dwcdn.net/1UfdD/embed.js" charset="utf-8" data-target="#datawrapper-vis-1UfdD"></script><noscript><img src="https://datawrapper.dwcdn.net/1UfdD/full.png" alt="[ Insert title here ] (Table)" /></noscript></div>
-
+<iframe title="[ Insert title here ]" aria-label="Table" id="datawrapper-chart-1UfdD" src="https://datawrapper.dwcdn.net/1UfdD/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="400" data-external="1"></iframe><script type="text/javascript">window.addEventListener("message",function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r,i=0;r=e[i];i++)if(r.contentWindow===a.source){var d=a.data["datawrapper-height"][t]+"px";r.style.height=d}}});</script>
 
 Build idea 2:
 
 Getting more realistic.
 
-<iframe title="Bike Build Brake Down 2" aria-label="Table" id="datawrapper-chart-8sIkc" src="https://datawrapper.dwcdn.net/8sIkc/1/" scrolling="no" frameborder="0" style="border: none;" width="400" height="1168" data-external="1"></iframe>
+<iframe title="Bike Build Brake Down 2" aria-label="Table" id="datawrapper-chart-8sIkc" src="https://datawrapper.dwcdn.net/8sIkc/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="1168" data-external="1"></iframe><script type="text/javascript">window.addEventListener("message",function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r,i=0;r=e[i];i++)if(r.contentWindow===a.source){var d=a.data["datawrapper-height"][t]+"px";r.style.height=d}}});</script>
 
 Build idea 3:
 
@@ -80,7 +79,6 @@ Getting more realistic and what I actually did.
 The tires are tbd - it's cold and I don't want to ride outside atm.
 
 <iframe title="Final Build (for now)" aria-label="Table" id="datawrapper-chart-09znN" src="https://datawrapper.dwcdn.net/09znN/2/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="1036" data-external="1"></iframe><script type="text/javascript">window.addEventListener("message",function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r,i=0;r=e[i];i++)if(r.contentWindow===a.source){var d=a.data["datawrapper-height"][t]+"px";r.style.height=d}}});</script>
-
 The three bespoke parts:
 
 Madrone derailleur, Gevenelle shifters,  and WolfTooth BB. I like small companies especially ones that are on the outskirts of industries and breaking molds, also they all answer my weird questions. All of them are into the right-to-repair ethos especially WolfTooth and they're all American companies, and WolfTooth is mostly made in Minneapolis (i <3 Minneapolis).
