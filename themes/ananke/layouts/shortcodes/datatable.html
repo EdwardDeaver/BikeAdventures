@@ -1,0 +1,89 @@
+{{- $id := .Get "id" | default (printf "datatable-%d" .Ordinal) -}}
+{{- $csvUrl := .Get "csv" -}}
+{{- $jsonUrl := .Get "json" -}}
+{{- $pageLength := .Get "pageLength" | default "10" -}}
+{{- $ordering := .Get "ordering" | default "true" -}}
+{{- $searching := .Get "searching" | default "true" -}}
+{{- $responsive := .Get "responsive" | default "false" -}}
+{{- $scrollX := .Get "scrollX" | default "true" -}}
+{{- $startPosition := .Get "startPosition" -}}
+
+{{- $config := dict 
+  "pageLength" (int $pageLength)
+  "ordering" (eq $ordering "true")
+  "searching" (eq $searching "true")
+  "responsive" (eq $responsive "true")
+  "scrollX" (eq $scrollX "true")
+  "csvUrl" $csvUrl
+  "jsonUrl" $jsonUrl
+-}}
+
+{{- $wrapperStyle := "" -}}
+{{- if $startPosition -}}
+  {{- $wrapperStyle = printf "margin-left: %s; margin-right: auto; width: calc(100%% - %s);" $startPosition $startPosition -}}
+{{- end -}}
+
+<div class="datatable-wrapper" {{ with $wrapperStyle }}style="{{ . }}"{{ end }}>
+  <table id="{{ $id }}" class="display nowrap" style="width:100%" data-datatable-config='{{ $config | jsonify }}'>
+    {{ with .Inner }}
+    {{ . | safeHTML }}
+    {{ end }}
+  </table>
+</div>
+
+{{- if not (.Page.Scratch.Get "datatable-loaded") -}}
+  {{- .Page.Scratch.Set "datatable-loaded" true -}}
+  <link rel="stylesheet" href="https://cdn.datatables.net/1.13.6/css/jquery.dataTables.min.css" />
+  <link rel="stylesheet" href="https://cdn.datatables.net/responsive/2.5.0/css/responsive.dataTables.min.css" />
+  <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+  <script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
+  <script src="https://cdn.datatables.net/responsive/2.5.0/js/dataTables.responsive.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js"></script>
+  <script>
+  $(document).ready(function() {
+    $('[data-datatable-config]').each(function() {
+      var $table = $(this);
+      var id = $table.attr('id');
+      var config = JSON.parse($table.attr('data-datatable-config'));
+      
+      var dtOptions = {
+        responsive: config.responsive,
+        pageLength: config.pageLength,
+        ordering: config.ordering,
+        searching: config.searching,
+        scrollX: config.scrollX
+      };
+
+      if (config.csvUrl) {
+        Papa.parse(config.csvUrl, {
+          download: true,
+          header: true,
+          skipEmptyLines: true,
+          complete: function(results) {
+            var data = results.data;
+            var columns = Object.keys(data[0]).map(function(key) {
+              return { title: key, data: key };
+            });
+            dtOptions.data = data;
+            dtOptions.columns = columns;
+            $table.DataTable(dtOptions);
+          }
+        });
+      }
+      else if (config.jsonUrl) {
+        $.getJSON(config.jsonUrl, function(data) {
+          var columns = Object.keys(data[0]).map(function(key) {
+            return { title: key, data: key };
+          });
+          dtOptions.data = data;
+          dtOptions.columns = columns;
+          $table.DataTable(dtOptions);
+        });
+      }
+      else {
+        $table.DataTable(dtOptions);
+      }
+    });
+  });
+  </script>
+{{- end -}}

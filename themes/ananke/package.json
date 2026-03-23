@@ -13,7 +13,11 @@
    "tachyons": "project"
   }
  },
- "dependencies": {},
+ "dependencies": {
+  "datatables.net": "^2.3.5",
+  "datatables.net-bs5": "^2.3.5",
+  "jquery": "^3.7.1"
+ },
  "description": "Theme Ananke",
  "devDependencies": {
   "auto-changelog": "^2.5.0",

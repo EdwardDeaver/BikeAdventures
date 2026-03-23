@@ -2,3 +2,8 @@ baseURL = 'https://edwarddeaver.bike/'
 languageCode = 'en-us'
 title = 'Bike Adventures'
 theme = "ananke"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

@@ -19,3 +19,7 @@ url = "https://www.strava.com/athletes/25210566"
 name = "ridewithgps"
 url = "https://ridewithgps.com/users/8948817/"
 
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
