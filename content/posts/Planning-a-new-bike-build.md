@@ -81,7 +81,7 @@ The tires are tbd - it's cold and I don't want to ride outside atm.
 
 The three bespoke parts:
 
-Madrone derailleur, Gevenelle shifters,  and WolfTooth BB. I like small companies especially ones that are on the outskirts of industries and breaking molds, also they all answer my weird questions. All of them are into the right-to-repair ethos especially WolfTooth and they're all American companies, and WolfTooth is mostly made in Minneapolis (i \<3 Minneapolis).
+Madrone derailleur, Gevenelle shifters,  and WolfTooth BB. I like small companies especially ones that are on the outskirts of industries and breaking molds, also they all answer my weird questions. All of them are into the right-to-repair ethos especially WolfTooth and they're all American companies, and WolfTooth is mostly made in Minneapolis (i <3 Minneapolis).
 
 A special note on the Madrone derailleur, 12 speed is getting more and more proprietary with deep vendor lock-in with SRAM and Shimano cable pulls differing from their 11 speeds. Madrone is kicking that issue with different cams, so you can have one derailleur, swap the cams and swap the shifters boom, you're on a new drivetrain. They also make repairable parts, and replacement parts for AXS - the repair ethos is in the company's blood. With any niche company claiming interoperability you have to bet that they'll exist in a few years. With Ratio coming out, the Growtech equal control shifters, I think we're starting to see a trend of people wanting the high end parts but not wanting lock-in. But maybe that's just an algorithmic bubble, even if it is, so be it. 
 
@@ -111,7 +111,7 @@ Thank you to WolfTooth for answering my many product questions.
 
 Big thanks to my PT - I don't have debilitating back pain anymore. 
 
-
+The bike's name is **X-1**.
 
 
 
