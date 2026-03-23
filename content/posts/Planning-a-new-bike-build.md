@@ -105,10 +105,12 @@ I know every part of it. The build also has adapters for the Post Mount brakes f
 
 Thank you to Syracuse Bicycle for fixing parts where I could not. Like figuring out how the Ethirteen cassette goes on. Fixing the headset, and fixing the derailleur adjustment. 
 
-Thank you to Madrone for answering all my wacky questions. 
+Thank you to Madrone for answering all my wacky questions - shout out Dillon Thigpen. 
 
 Thank you to WolfTooth for answering my many product questions. 
 
+Thank you to Lynksey for answering my questions and tracking down that fork - shout out Mark Lynskey.
+ 
 Big thanks to my PT - I don't have debilitating back pain anymore. 
 
 The bike's name is **X-1**.
