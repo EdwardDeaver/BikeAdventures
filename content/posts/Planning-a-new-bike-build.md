@@ -51,7 +51,7 @@ Gearing: SRAM XD goes down to a 10t vs Shimano’s 11t, Ethirteen makes a 9-50 c
 
 I don’t want to have multiple shifter systems, I’ll stick with my Gevenalle frictions.
 
-While it would be nice to have hydraulic brakes I can probably get away with discs for now, stopping was never the issue, traction was.
+While it would be nice to have hydraulic brakes I can probably get away with cable discs for now, stopping was never the issue, traction was.
 
 Similarly on the deraloior side I like how Madrone is approachi g repairability and customizability. Also comes in purple.
 
